@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Add your custom styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0F975A;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background-color: #333;
+            width: 100%;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 2px solid white;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .hero {
+            background-image: url('your_hero_img_url_here');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 0 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">
+            <img src="your_logo_url_here" alt="Logo" style="width:50px;">
+        </a>
+        <a href="#services">Services</a>
+        <a href="#book">Book Now</a>
+    </div>
+    <div class="hero">
+        <h1>We provide high-quality, hassle-free media so you can do what you do best.</h1>
+        <a href="#services" class="button">Services</a>
+        <a href="#book" class="button">Book Now</a>
+    </div>
+    <div>
+        <h2>How things work</h2>
+        <ul>
+            <li class="how-things-work-li">
+                <ul>Step 1 - Sign Up</ul>
+                    <li>Don’t worry! We’re not fans of giving you another password to track, it just provides you with a secure way to receive all of your media.</li>
+            </li>
+            <li class="how-things-work-li">
+                <ul>Step 2 - Book Your Session</ul>
+                    <li>Pick a time that works for you, and we’ll be there on time to make the magic happen.</li>
+            </li>
+            <li class="how-things-work-li">
+                <ul>Step 3 - Receive Your Media</ul>
+                    <li>In as little as 24 hours, you will receive contact stating that your media is ready to be downloaded!</li>
+            </li>
+        </ul>
+    </div>
+    <!-- Your content goes here -->
+</body>
+</html>
