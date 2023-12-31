@@ -1,9 +1,8 @@
-* {
+/* * {
     font-family: 'Outfit';
 }
 
 body {
-    /* font-family: Arial, sans-serif; */
     margin: 0;
     padding: 0;
     background-color: #0F975A;
@@ -33,7 +32,10 @@ body {
 }
 
 .hero {
-    background-image: url('your_hero_img_url_here');
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-image: url(../pictures/house-placeholder.jpeg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -46,8 +48,8 @@ body {
 }
 
 .how-things-work-container {
-    width: 100vw;
-    height: 100vh;
+    width: 1920px;
+    height: 1080px;
     flex-shrink: 0; 
     background: radial-gradient(50% 50% at 50% 50%, #FFF 0%, #F2F2F2 100%);
 }
@@ -55,3 +57,12 @@ body {
 .uppercase {
     text-transform: uppercase;
 }
+
+.how-things-work-li {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #395C6B 0%, #395C6B 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 134.33px;
+    border: 9.31px solid
+} */
